@@ -9,3 +9,14 @@ const foo = () => [1, 2, 3];
 const [one, two] = foo();
 console.log(two, one);
 // => 1 2
+
+//Destructuring Objects
+const twoNames = {
+    a: 'Jack',
+    b: 'Jill'
+};
+const {a, b} = twoNames;
+console.log('a:', a, 'b:',b);
+
+console.log('a:', a, 'b:',b);
+// => a: Jill b: Jack
