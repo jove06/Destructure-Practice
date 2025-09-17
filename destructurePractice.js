@@ -20,3 +20,9 @@ console.log('a:', a, 'b:',b);
 
 console.log('a:', a, 'b:',b);
 // => a: Jill b: Jack
+
+// Destructuring Nested Arrays
+
+const array = [1, [2, [[[3, 4], 5], 6]]];
+const [c, [d, [e, f]]] = array;
+console.log("c:", c, "d:", d, "e:", e, "f:", f);
